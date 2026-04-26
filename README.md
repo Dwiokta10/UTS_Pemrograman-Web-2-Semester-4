@@ -29,6 +29,8 @@ Melalui project ini, dilakukan simulasi:
 ---
 
 ## Tahap 1: Sistem Tanpa Proteksi CSRF
+<img width="1920" height="1128" alt="1" src="https://github.com/user-attachments/assets/1e6a8d47-9ec1-4d8c-9ad7-0de0b877eb88" />
+<img width="1711" height="647" alt="y" src="https://github.com/user-attachments/assets/4bc107a8-8c2a-42ca-b7a2-465c203bf290" />
 
 ### Form Ubah Password
 ```html
@@ -41,6 +43,7 @@ Melalui project ini, dilakukan simulasi:
 ---
 
 ### Script Serangan (CSRF Attack)
+<img width="1275" height="647" alt="2" src="https://github.com/user-attachments/assets/27581e26-ff2d-48d2-a374-ab36be0f3c4a" />
 
 ```html
 <form action="http://localhost:8080/csrf-lab/update_password.php" method="POST">
@@ -57,6 +60,7 @@ Melalui project ini, dilakukan simulasi:
 ### Hasil Serangan
 
 Password berhasil diubah tanpa konfirmasi pengguna.
+<img width="1920" height="1128" alt="4" src="https://github.com/user-attachments/assets/fa3836ba-60d3-4f88-921f-8449be5d5e2c" />
 
 ---
 
@@ -70,20 +74,13 @@ Server tidak mampu membedakan request asli dan request dari attacker karena:
 ### Request Payload (Network)
 
 (Dapat dilihat melalui Inspect → Network pada browser)
-
----
-
-## Tahap 2: Implementasi CSRF Protection
-
-### CSRF Token
-
-```html
-<input type="hidden" name="csrf_token" value="random_token">
-```
+<img width="1536" height="1024" alt="6" src="https://github.com/user-attachments/assets/46d28ba2-a1df-4cad-859a-c3534b555820" />
 
 ---
 
 ### Hasil Setelah Mitigasi
+<img width="1653" height="703" alt="5" src="https://github.com/user-attachments/assets/b869c7b6-c0ea-4424-83bd-90e629625d00" />
+
 
 Serangan CSRF gagal karena token tidak valid.
 

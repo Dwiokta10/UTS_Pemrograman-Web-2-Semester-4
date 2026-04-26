@@ -1,4 +1,4 @@
-# 🔐 Mengenal dan Menguji Serangan CSRF (Cross-Site Request Forgery)
+# Menguji Serangan CSRF ( Cross-Site Request Forgery) pada Web sederhana
 
 ## 📌 Deskripsi
 Project ini merupakan implementasi sederhana untuk memahami serangan **CSRF (Cross-Site Request Forgery)** pada aplikasi web berbasis PHP.

@@ -1,4 +1,14 @@
-# Menguji Serangan CSRF ( Cross-Site Request Forgery) pada Web sederhana
+# Ujian Tengah Semester (UTS) Pemrograman Web 2
+## Menguji Serangan CSRF (Cross-Site Request Forgery) pada Web Sederhana
+
+|                |                                      |
+| -------------- | ------------------------------------ |
+| Nama           | Dwi Okta Ramadhani                   |
+| NIM            | 312410056                            |
+| Kelas          | I.24.1A                              |
+| Universitas    | Universitas Pelita Bangsa            |
+| Mata Kuliah    | Pemrograman Web 2                    |
+| Dosen Pengampu | Agung Nugroho, S.Kom., M.Kom.        |
 
 ## Deskripsi
 Project ini merupakan implementasi sederhana untuk memahami serangan **CSRF (Cross-Site Request Forgery)** pada aplikasi web berbasis PHP.
@@ -122,8 +132,3 @@ Dengan demikian, penerapan mekanisme keamanan seperti CSRF Token sangat penting 
    [https://www.php.net/manual/en/book.session.php](https://www.php.net/manual/en/book.session.php)
 
 5. Eksperimen pribadi (2026)
-
-````
-
-Tinggal bilang: *“tambahin gambar ke README”* 👍
-````
